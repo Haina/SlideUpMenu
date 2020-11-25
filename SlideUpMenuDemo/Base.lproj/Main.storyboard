@@ -15,8 +15,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击屏幕" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0a-AB-x21">
+                                <rect key="frame" x="158.5" y="438.5" width="97.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.29411764709999999" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.26274509800000001" green="0.29411764709999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f0a-AB-x21" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="43T-th-2uZ"/>
+                            <constraint firstItem="f0a-AB-x21" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GUA-zd-7YN"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="n5N-kZ-rIc" appends="YES" id="Q7K-f5-wxg"/>
                         </connections>
